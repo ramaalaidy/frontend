@@ -1,0 +1,102 @@
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+    
+      
+      p {
+        font-family: "Roboto", serif;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+      }
+      h2 {
+        font-size: 40px;
+        font-family: "Big Shoulders Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: hsl(0, 0%, 95%);
+      }
+      body {
+        display: grid;
+        justify-content: center;
+        background-color: hsl(0, 0%, 95%);
+      }
+      .main {
+        width: 900px;
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+      }
+      .one {
+        background-color: hsl(31, 77%, 52%);
+        padding: 30px;
+        height: 400px;
+        border-radius: 7px 0 0 7px;
+      }
+      .two {
+        height: 400px;
+        background-color: hsl(184, 100%, 22%);
+        padding: 30px;
+      }
+      .three {
+        height: 400px;
+        background-color: hsl(179, 100%, 13%);
+        padding: 30px;
+        border-radius: 0 7px 7px 0;
+      }
+      .b-one {
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);
+      }
+      .b-one:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(31, 77%, 52%);
+      }
+      .b-two {
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+      }
+      .b-two:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(184, 100%, 22%);
+      }
+      .b-three {
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        background-color: hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+      }
+      .b-three:hover {
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 50px;
+        margin-top: 70px;
+        width: 150px;
+        height: 40px;
+        color: hsl(0, 0%, 95%);
+        background-color: hsl(179, 100%, 13%);
+      }
